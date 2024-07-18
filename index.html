@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <style>
+       .main{
+        /* border: 2px solid black; */
+        height: 60vh;
+        width: 70vw;
+        margin-left: 18%;
+        position: relative;
+        
+       }
+       .first{
+        
+        /* border: 2px solid black; */
+        height: 100%;
+      
+       
+        
+       }
+       .font{
+        margin-left: 12%;
+        height: 5%;
+        
+        
+       }
+       .os{
+        margin-left: 12%;
+        height: 25%;
+        display: flex;
+       }
+       .absolute{
+        margin-left: 12%;
+        height: 110%;
+        padding: 1%;
+       }
+       .relate{
+        
+        margin-left: 12%;
+        padding: 2%;
+        height: 170%;
+       }
+       .sketch{
+        /* border: 2px solid black; */
+        height: 86%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: inline-block;
+        text-align: center;
+        padding-top: 8%;
+        background-color: rgba(128, 128, 128, 0.208);
+        
+  
+       }
+       .gallery{
+        margin-left: 12%;
+        margin-top: -5%;
+        height: 21%;
+       }
+       .pen{
+        /* border: 2px solid black; */
+      
+        
+
+        
+        align-content: center;
+        align-content: first baseline;
+       }
+       .ab{
+        /* border: 2px solid black; */
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 250px 250px 250px ;
+        grid-template-rows: 170px 170px 170px;
+        grid-auto-rows: 250px;
+        gap: 25px;
+
+        
+       }
+       .gr{
+        background-color: aqua;
+        font-size: 20px;
+        text-align: center;
+        
+      
+      
+
+       }
+       .oran{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+       }
+       .purp{
+        grid-column-start: 2;
+        grid-column-end: 4;
+       }
+
+       .fir{
+        border: 2px solid white;
+        height: 100%;
+        width: 30%;
+        margin-top: -42.5%;
+        
+       }
+       
+       .fi{
+        border: 2px solid white;
+        width:25%;
+        position: absolute;
+        font-size:larger;
+        z-index: 1;
+        color: white;
+        height: 30%;
+        margin-top: -1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(19, 67, 119);
+        margin-left: -0.1%;
+        
+    
+       }
+       .ir{
+        /* border: 2px solid white; */
+        background-color: black;
+        opacity:0.5;
+        height: 70%;
+        width: 25%;
+        margin-top: 12%;
+        position: absolute;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        color: white;
+        margin-left: -0.1%;
+        
+        
+
+       }
+       .fun{
+        border: 2px solid white;
+        width: 90%;
+        height: 70%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+       }
+       .irony{
+        display: flex;
+        justify-content:left;
+        align-items:center;
+        justify-content: space-evenly;
+        
+        
+        
+       }
+      .left{
+        margin-left: -200%;
+      }
+      .right{
+        margin-top: -280%;
+        margin-left: 40%;
+      }
+      .ry{
+        border: 2px solid white;
+        height: 10%;
+        display: flex;
+        width: 15%;
+        margin-top: -6%;
+        color: white;
+        margin-left: 6%;
+        justify-content: space-between;
+        
+      }
+      .beauty{
+        /* border: 2px solid white; */
+        height: 10%;
+        width: 50%;
+        margin-left: 70%;
+        margin-top: -30%;
+        color: white;
+       
+      }
+      .classy{
+        /* border: 2px solid white; */
+         height: 150%;
+      }
+      .cl{
+        font-size: 40px;
+      }
+      .tra{
+        margin-top: -1%;
+        margin-left: 30%;
+      }
+      .sy{
+        margin-top: 4%;
+        margin-left: -15%;
+      }
+      .la{
+        margin-top: -9%;
+        margin-left: 10%;
+      }
+      .as{
+        margin-left: 33%;
+        margin-top: -8%;
+      }
+      .dis{
+        position: absolute;
+        z-index: 1;
+        border: 2px solid white;
+        height: 3%;
+        width: 8%;
+        padding: 1%;
+        margin-left: -3%;
+      }
+      .teach{
+        border: 2px solid white;
+        height: 100%;
+        width: 100%;
+        display: flex;
+
+      }
+      .tea{
+        border: 2px solid white;
+        height: 40%;
+        width: 40%;
+        margin-top: -10%;
+        
+
+      }
+      .cup{
+        margin-top: 30%;
+        font-size: 50px;
+        margin-left: 30%;
+      }
+      .saucer{
+         margin-top: -4%;
+         color: blueviolet;
+         margin-left: 5%;
+      }
+      .spoon{
+        margin-left: -7%;
+        font-size: large;
+        margin-top:32% ;
+      }
+      .taste{
+        margin-right: 5%;
+        margin-top: 31%;
+      }
+      .ste{
+        margin-left: 80%;
+        margin-top: 8%;
+        font-size: 40px;
+      }
+       .one{
+        margin-left: 70%;
+        /* border: 2px solid black; */
+        width: 12%;
+        height: 18%;
+        font-size: 40px;
+        padding: 1%;
+
+       }
+       .two{
+        margin-left: 94%;
+        font-size: 40px;
+        margin-top: -34%;
+        /* border: 2px solid black; */
+        width: 14%;
+        height: 19%;
+        padding: 1%;
+        text-align: center;
+       }
+       .lesson{
+        border: 2px solid white;
+        height: 150%;
+        width: 100%;
+        display: flex;
+        padding: 1%;
+        justify-content: space-evenly;
+        margin-left: 8%;
+        margin-top: 1%;
+       }
+       .less{
+        border: 2px solid white;
+        height: 50%;
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+      
+        
+       }
+       .second{
+        /* border: 2px solid black; */
+        height: 50%;
+        width: 88.5%;
+        display: flex;
+        margin-top: -35.2%;
+        margin-left: 12%;
+        gap: 2%;
+        
+
+       }
+       /* .sec{
+        border: 2px solid black;
+        height: 90%;
+        width: 80%;
+        gap: 2%;
+        display: flex;
+        justify-content: space-between;
+         */
+       /* } */
+        
+        
+       
+       .in{
+        margin-left: -7%;
+        padding: 1%;
+        display: flex;
+        
+       }
+       .on{
+        margin-left: 1%;
+        padding: 1%;
+       }
+       .of{
+        margin-left: -7%;
+        padding: 1%;
+       }
+      /* .ond{
+       margin-top: -7%;
+       margin-left: -4%;
+      }
+      .ec{
+        margin-top: -10.8%; 
+        margin-left: 6%;
+      }
+      .se{
+        margin-top: -10.8%; 
+        margin-left: 8%;
+      } */
+      .sec{
+         /* border: 2px solid black; */
+         height: 100%;
+         width: 34.5%;
+         margin-top: 0%;
+         
+         
+
+
+      }
+      .ond{
+        margin-left: 0;
+        
+        width: 34%;
+      }
+      .lo{
+        font-size: 30px;
+      }
+      .lolo{
+        /* border: 2px solid black; */
+        margin-top: -3%;
+        font-size: 20px;
+        margin-top: -10%;
+        color:rgba(0, 0, 0, 0.689);
+      
+      }
+      .ol{
+        color: gray;
+      }
+      .dot{
+        
+        height: 20px;
+        width: 20px;
+        background-color: blue;
+        border-radius: 50%;
+        display: inline-block;
+      }
+      .dot2{
+        background-color: gray;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        display: inline-block;
+      }
+      .choice{
+        /* border: 2px solid black; */
+        height: 80%;
+        width: 100%;
+        
+      }
+      .rec{
+        margin-left: 30%;
+        font-size: 30px;
+        margin-top: 4%;
+
+      }
+      .pro{
+        margin-left: 30%;
+        font-size: 30px;
+        color: rgba(40, 9, 215, 0.918);
+        margin-top: -1%;
+      }
+      .pre{
+       font-size: medium;
+       margin-left: -45%;
+       margin-top: 7%;
+      
+
+      }
+      .d{
+        font-size: medium;
+        margin-top: -2%;
+        margin-left: -45%;
+      }
+      .comp{
+        font-size: 25px;
+      }
+      .ny{
+        color: rgba(16, 16, 213, 0.878);
+      }
+      .egypt{
+        color: gray;
+      }
+      .duo{
+        color: gray;
+      }
+      .ing{
+        /* border: 2px solid black; */
+        height: 10%;
+        width: 17%;
+        padding: 1%;
+        margin-left: 40%;
+        margin-top: 2%;
+        background-color: rgb(23, 23, 182);
+        color: white;
+      }
+      .tang{
+        margin-left: -5%;
+      }
+      .crast{
+        margin-left: -5%;
+      }
+      .req{
+        margin-left: -80%;
+      }
+      .lem{
+        margin-left: -80%;
+      }
+      .east{
+        margin-left: 12%;
+        height: 160%;
+        padding: 1%;
+      }
+      .west{
+       /* border: 2px solid black; */
+       height: 100%;
+       display: flex;
+       
+       
+      }
+      .clutch{
+        /* border: 2px solid black; */
+        height: 9%;
+        width:90%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+      }
+      .king{
+        /* border: 2px solid black; */
+        width:99.6%;
+        height:0.8%;
+        margin-top: -73%;
+        background-color: rgb(23, 23, 182);
+      }
+      .north{
+        background-color: rgb(23, 23, 182);
+        color: white;
+      }
+      .eng{
+        background-color: rgba(128, 128, 128, 0.166);
+      }
+      .tel{
+        background-color: rgba(128, 128, 128, 0.166);
+      }
+      .hin{
+        background-color: rgba(128, 128, 128, 0.166);
+      }
+      .queen{
+        /* border: 2px solid black; */
+        width: 95%;
+        height: 30%;
+        padding: 1.5%;
+        display: flex;
+        
+      }
+      .prince{
+       margin-left: 33%; 
+       margin-top: -26%;
+      }
+      .sense{
+        margin-left: -66%;
+        
+      }
+      .cess{
+        /* border: 2px solid black; */
+        width: 17%;
+        padding: 2%;
+        background-color: rgba(46, 46, 250, 0.969);
+        color: white;
+      }
+      .french{
+          font-size: 20px;
+      }
+      .spanish{
+          color: gray;
+          margin-top: -2%;
+      }
+      .kannad{
+        margin-left: 12%;
+      }
+      .tamil{
+        margin-left: 12%;
+        padding: 3%;
+      }
+      .telu{
+        /* border: 2px solid black; */
+        height: 100%;
+        width: 100%;
+        padding: 1%;
+        
+        
+
+      }
+      .bingo{
+        margin-left: -25%;
+      }
+     .lays{
+      margin-left: -25%;
+     }
+     .func{
+      margin-left: -95%;
+     }
+     .phillip{
+      margin-left: -95%;
+     }
+     .chris{
+      /* border: 2px solid black; */
+      width: 92%;
+      height: 10%;
+      display: flex;
+      padding: 2%;
+      margin-left: -3%;
+      margin-top: -40%;
+     }
+     .santa{
+      /* border: 2px solid black; */
+      height: 80%;
+      width: 100%;
+      padding: 1%;
+      
+     }
+    
+    [placeholder="Your name..."] {
+      height: 70%;
+      width: 100%;
+      background-color: rgba(205, 205, 205, 0.144);
+      border: 2px solid white;
+      
+      
+    }
+    [placeholder="Your email..."] {
+      height: 70%;
+      width: 100%;
+      background-color: rgba(205, 205, 205, 0.144);
+      border: 2px solid white;
+    }
+    [placeholder="Your Subject..."] {
+      height: 70%;
+      width: 100%;
+      background-color: rgba(205, 205, 205, 0.144);
+      border: 2px solid white;
+    }
+   
+    [id="msg"]{
+      height: 100%;
+      padding: 10px;
+      
+      
+    }
+    [placeholder="Your message..."] {
+      height: 100%;
+      width: 100%;
+     
+    }
+    .surp{
+      /* border: 2px solid grey; */
+      height: 50%;
+      width: 92%;
+      padding: 1%;
+      margin-top: -1%;
+      color: gray;
+      background-color: rgba(205, 205, 205, 0.144);
+    }
+    .imp{
+      margin-top: 2%;
+      height: 20%;
+    }
+    .tance{
+      margin-left: 10%;
+      /* border: 2px solid black; */
+      padding: 1%;
+      width: 92%;
+      text-align: center;
+      background-color: rgba(46, 46, 250, 0.969);
+      color: white;
+      margin-top: -5%;
+      
+     
+      
+     
+    }
+    .last{
+      /* border: 2px solid black; */
+      width: 100%;
+      height: 100%;
+      color: white;
+      background-color: black;
+      margin-left: 5%;
+      text-align: center;
+      margin-top: 3%;
+      padding: 3%;
+
+      
+
+    }
+    .finish{
+      /* border: 2px solid black; */
+     
+      width: 100%;
+      height: 100%;
+      margin-top: -2%;
+    
+    }
+   
+    
+     
+    
+    
+   
+       
+
+       
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="first for"><img src="./backimg.jpg" height="100%" width="100%" alt="">
+            <div class="fir">
+          <div class="fi front">
+            <div class="fun">
+            sentra
+            </div>
+            
+            </div>
+        
+          <div class="ir irony"><ul style="list-style-type: disc;"> <li class="right">Home</li></ul>
+                             <br> <ul style="list-style-type: circle;"><li class="left" >Featured</li>
+                              <br> <li class="left">Recent Work</li>
+                               <br><li class="left">Presentation</li>
+                              <br> <li class="left">Blog Entires</li>
+                              <br> <li class="left">Contact Us</li>
+        </ul></div>
+            </div>
+            <div class="ry">
+            <div class="io"><ion-icon name="logo-facebook"></ion-icon></div>
+            <div class="ion"><ion-icon name="logo-twitter"></ion-icon></div>
+            <div class="icon"><ion-icon name="logo-linkedin"></ion-icon></div>
+            <div class="on"><ion-icon name="logo-rss"></ion-icon></div>
+            <div class="in"><ion-icon name="logo-behance"></ion-icon></div>
+            </div>
+         
+
+             
+           </div>
+           <div class="beauty">
+            <div class="classy cl">Beautiful Template 
+                <br><p class="tra">Sentra</p></div>
+            <div class="classy sy">This is a HTML CSS template provided by templatemo website.</div>
+            <div class="classy la">Please tell your friends about our site.</div>
+            <div class="classy as"><p class="dis">Discover More</p></div>
+                
+           </div>
+           
+           
+           
+        
+       
+         <div class="first teach">
+            <div class="tea cup">Featured
+                <br><p class="saucer">places</p></div>
+            <div class="tea spoon">Praesent pellentesque efficitur magna,
+                <br>sed  pellentesque neque mallesuada vitae.
+            </div>
+            <div class="tea taste"><p class="ste"><b><p class="one"><img src="./prev.png" alt=""></p>&nbsp;&nbsp;&nbsp;<p class="two nd"><img src="./next.png" alt=""></p></div>
+        </div>
+       
+        <div class="first lesson">
+            <div class="less on"><img src="./featured_1.jpg" height="90%" width="80%"></div>
+            <div class="less in"><img src="./featured_2.jpg" height="90%" width="80%"></div>
+            <div class="less of"><img src="./featured_3.jpg"  height="90%" width="80%" ></div>
+            
+            </div>
+            <div class="second">
+              <div class="sec ond">
+              <div><p><b class="lo">Lorem ipsum dolor</b></p></div>
+              <div><p><b class="lolo">Proin et sapien</b></p></div>
+              <div><p class="ol">#1 Vestibulum ante ipsum primis in faucibus orci</p></div>
+              <div><p class="ol">luctus et ultrices posuere cubilia Curae; Sed at</p></div>
+              <div><p class="ol">massa turpis.Fusce ut pretium dui,vitae</p></div>
+              <div><p class="ol">ullamcorper velit</p></div>
+            </div>
+              <div class="sec ec">
+                <div><p><b class="lo">Phasellus a lacus ac odio</b></p></div>
+                <div><p><b class="lolo">Maximus</b></p></div>
+                <div><p class="ol">#2 Vestibulum ante ipsum primis in faucibus orci</p></div>
+                <div><p class="ol">luctus et ultrices posuere cubilia Curae; Sed at</p></div>
+                <div><p class="ol">massa turpis.Fusce ut pretium dui,vitae</p></div>
+                <div><p class="ol">ullamcorper velit</p></div>
+              </div>
+              <div class="sec se">
+                <div><p><b class="lo">Proin sit amet fringilla</b></p></div>
+                <div><p><b class="lolo">Vulputate</b></p></div>
+                <div><p class="ol">#3 Alliquam mollis lacus eget metus efficitur</p></div>
+                <div><p class="ol">lobortis.Suspendisse libero lacus,accumsan vitae</p></div>
+                <div><p class="ol">commodo tristique,luctus gravida metus.</p></div>
+               
+              </div>
+              
+        </div>
+       
+        <div class="first font">
+          <div style="text-align: center;">
+            <span class="dot"></span>
+            <span class="dot2"></span>
+            <span class="dot2"></span>
+          </div>
+        </div>
+        <div class="first os">
+          <div class="choice">
+            <div class="rec">Recent</div>
+           <div class="pro">Projects</div>
+        </div>
+          <div class="choice">
+            <div><p class="pre">Praesent pellentesque efficitur magna,</p></div>
+            <div><p class="d">sed pellentesque neque mallesuada vitae.</p></div>
+        </div>
+        </div>
+        <div class="first absolute">
+          <div class="ab">
+            <div class="gr oran"><img src="./portfolio_1.jpg" height="100%" width="100%"></div>
+            <div class="gr yell"><img src="./portfolio_2.jpg" height="100%" width="100%"></div>
+            <div class="gr blue"><img src="./portfolio_3.jpg" height="100%" width="100%"></div>
+            <div class="gr red"><img src="./portfolio_4.jpg" height="100%" width="100%"></div>
+            <div class="gr purp"><img src="./portfolio_5.jpg" height="100%" width="100%"></div>
+           
+          </div>
+        </div>
+        <div class="first relate">
+          <div class="sketch pen">
+            <div class="paint"><p class="comp"><b>This is a <b class="ny">company</b> presentation.</b></div>
+            <div class="draw"><p>Praesent pellentesque efficitur magna,sed pellentesque neque mallesuada vitae</p></div>
+            <div class="write"><p class="egypt">In eget ipsum sed lorem vehicula luctus.Curabitur non dolor rhoncus,hendrerit justo sit amet,vestibulum turpis.Pellentesque id auctor tellus,vel ultrices augue.</p></div>
+            <div class="study"><p class="duo">Duis condimentum aliquet blandit.Fusce rhoncus et eros ut pharetra.Phasellus convallis ultricies ligula ac gravida.</p></div>
+            <div class="analyse"><p class="ing">Continue Reading</p></div>
+            <div class="effort">
+              <video controls autoplay muted 
+              poster="../day4/cam.jpg" height="50%" width="80%">
+              
+                  <source src="../day4/song.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+        <div class="first gallery"> 
+          <div class="first os">
+            <div class="choice">
+              <div class="rec tang">Blog</div>
+             <div class="pro crast">Entries</div>
+          </div>
+            <div class="choice">
+              <div><p class="pre req">Curabitur hendrerit mauris mollis ipsum vulputate rutrum</p></div>
+              <div><p class="d lem">Phasellus luctus odio eget dui imperdiet.</p></div>
+          </div>
+          </div>
+      </div>
+        <div class="first east">
+          <div class="west">
+            <div class="north clutch">June 2018</div>
+            <div class="eng clutch">June 2018</div>
+            <div class="tel clutch">May 2018</div>
+            <div class="hin clutch">April 2018</div>
+            </div>
+            <div class="king"></div>
+            <div class="queen">
+              <div><img src="./blog_1.jpg" ></div>
+            </div>
+            <div class="prince">
+              <div><p class="french"><b>Integer ultrices augue</b></p></div>
+              <div><p class="spanish"><b>25 July 2018</b></p></div>
+              <div><p>Nam vel egestas nisi.Nullam lobortis magna at enim venenatis luctus.Nam finibus,mauris eu</p></div>
+              <div><p>dictum iaculis,dolor tortor cursus quam,in volutpat augue lectus sed magna.Integer mollis</p></div>
+              <div><p>lorem quis ipsum maximus finibus.</p></div>
+             <div><p class="cess">Continue Reading</p></div>
+            </div>
+            <div class="queen">
+              <div><img src="./blog_2.jpg" ></div>
+            </div>
+            <div class="prince">
+              <div><p class="french"><b>Cras commodo odio ut</b></p></div>
+              <div><p class="spanish"><b>16 July 2018</b></p></div>
+              <div><p>Nam vel egestas nisi.Nullam lobortis magna at enim venenatis luctus.Nam finibus,mauris eu</p></div>
+              <div><p>dictum iaculis,dolor tortor cursus quam,in volutpat augue lectus sed magna.Integer mollis</p></div>
+              <div><p>lorem quis ipsum maximus finibus.</p></div>
+             <div><p class="cess">Continue Reading</p></div>
+            </div>
+            <div class="queen">
+              <div><img src="./blog_3.jpg" ></div>
+            </div>
+            <div class="prince">
+              <div><p class="french"><b>Sed at massa turpis</b></p></div>
+              <div><p class="spanish"><b>10 July 2018</b></p></div>
+              <div><p>Nam vel egestas nisi.Nullam lobortis magna at enim venenatis luctus.Nam finibus,mauris eu</p></div>
+              <div><p>dictum iaculis,dolor tortor cursus quam,in volutpat augue lectus sed magna.Integer mollis</p></div>
+              <div><p>lorem quis ipsum maximus finibus.</p></div>
+             <div><p class="cess">Continue Reading</p></div>
+            </div>
+            
+            
+        </div>
+        <div class="first kannad"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.5883374226673!2d-1.6223375241051154!3d6.697798293297731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb96f349e85efd%3A0xb8d1e0b88af1f0f5!2sKumasi%20Central%20Market!5e0!3m2!1sen!2sin!4v1717435754261!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div class="first tamil">
+          <div class="telu">
+            <div class="first os">
+              <div class="choice">
+                <div class="rec bingo">Contact </div>
+               <div class="pro lays">Sentra</div>
+            </div>
+              <div class="choice">
+                <div><p class="pre func">Curabitur hendrerit mauris,mollis ipsum vulputate rutrum.</p></div>
+                <div><p class="d phillip">Phasellus luctus odio eget dui imperdiet.</p></div>
+            </div>
+            </div>
+            
+          </div>
+          <div class="chris">
+            <div class="santa"> <input type="text" name="name" id="name" placeholder="Your name..."/></div>
+            <div class="santa"> <input type="email" name="email id" id="email"placeholder="Your email..."/></div>
+            <div class="santa"> <input type="subject" name="name" id="name" placeholder="Your Subject..."/></div>
+            
+            
+          </div>
+          <div class="surp">
+            <textarea name="msg" rows="5" cols="100">Your message...</textarea>
+             Your message...
+           </div>
+          </div>
+        <div class="first imp"><div class="tance">
+          Send Message Now
+         </div></div>
+        <div class="first finish">
+        <div class="last"><p>Copyright c 2018 Company Name .Design: <b>Sentra</b></p></div>
+    </div>
+           </div> 
+</body>
+</html>
